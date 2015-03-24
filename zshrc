@@ -42,10 +42,14 @@ COMPLETION_WAITING_DOTS="true"
 # yyyy-mm-dd
 HIST_STAMPS="yyyy-mm-dd"
 
+# TMUX conf
+ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_AUTOCONNECT=false
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git vagrant)
+plugins=(git vagrant tmux)
 
 # Boxen configuration
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
