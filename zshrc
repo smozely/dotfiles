@@ -58,3 +58,5 @@ plugins=(git vagrant tmux)
 [ -f ~/.zshrc-local ] && source ~/.zshrc-local
 
 source $ZSH/oh-my-zsh.sh
+
+export DISABLE_AUTO_TITLE=true
