@@ -60,3 +60,7 @@ plugins=(git vagrant tmux sudo sublime)
 source $ZSH/oh-my-zsh.sh
 
 export DISABLE_AUTO_TITLE=true
+
+export NVM_DIR="/opt/boxen/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
