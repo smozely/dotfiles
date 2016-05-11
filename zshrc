@@ -49,7 +49,7 @@ ZSH_TMUX_AUTOQUIT=true
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git vagrant tmux sudo sublime)
+plugins=(git vagrant tmux sudo fasd)
 
 # Boxen configuration
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
