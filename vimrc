@@ -51,8 +51,6 @@ set background=dark
 let g:solarized_termtrans = 1
 colorscheme solarized
 
-map <Leader>t :FuzzyFinderTextMate<Enter>
-
 " Dont use Arrows Noddy
 noremap <Up> <NOP>
 noremap <Down> <NOP>
