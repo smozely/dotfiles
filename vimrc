@@ -56,3 +56,6 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+
+" Theme for Airline (fix to stop Vim exiting with 1)
+let g:airline_theme='dark'
