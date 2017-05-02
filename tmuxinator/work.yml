@@ -34,7 +34,7 @@ windows:
       layout: main-vertical
       panes:
         - git fetch
-        - gulp 
+        - STUB_PUSHER_API=true NOTIFIER=true DISABLE_HMR=true gulp
         - gulp daemon-molecule
   - docker: 
       root: ~/src/Atomic/docker
