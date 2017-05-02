@@ -46,6 +46,8 @@ set laststatus=2                 " Show the status line all the time
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
+set encoding=utf-8
+
 " Color Scheme
 set background=dark
 let g:solarized_termtrans = 1
@@ -59,3 +61,4 @@ noremap <Right> <NOP>
 
 " Theme for Airline (fix to stop Vim exiting with 1)
 let g:airline_theme='dark'
+

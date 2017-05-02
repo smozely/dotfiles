@@ -36,7 +36,7 @@ windows:
         - git fetch
         - STUB_PUSHER_API=true NOTIFIER=true DISABLE_HMR=true gulp
         - gulp daemon-molecule
-  - docker: 
+  - docker:
       root: ~/src/Atomic/docker
       panes:
         - docker-compose up
@@ -44,7 +44,7 @@ windows:
       root: ~/src/Atomic/terraform
       panes:
         -
-  - gateway: 
+  - gateway:
       root: ~/src/Atomic/reactor
       panes:
         -
