@@ -12,8 +12,10 @@ brew "mas"
 brew "terraform"
 brew "tmux"
 brew "tree"
+brew "youtube-dl"
 brew "zsh"
 brew "zsh-completions"
+brew "zsh-syntax-highlighting"
 
 # Apps
 cask "1password-cli"
