@@ -1,5 +1,5 @@
 #!/bin/sh
-# Install all dotfiles into the home directory
+# Link all dotfiles into the home dir
 
 DOTFILESDIRREL=$(dirname $0)
 cd $DOTFILESDIRREL/..

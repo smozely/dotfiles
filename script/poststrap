@@ -1,0 +1,57 @@
+#!/bin/sh
+# Application setup after everything has been installed
+
+DOTFILESDIRREL=$(dirname $0)
+cd $DOTFILESDIRREL/..
+DOTFILESDIR=$(pwd -P)
+
+# Setup oh my zsh
+if [ ! -d "$HOME/.oh-my-zsh/" ]; then
+  echo "Installing Oh My ZSH"
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  ln -fs $DOTFILESDIR/zshrc ~/.zshrc
+fi
+
+# Global things
+## Dont make dsstore files
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+
+## Make function keys act like normal
+defaults write NSGlobalDomain com.apple.keyboard.fnState -bool TRUE;
+
+## Expand print dialog by default
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool TRUE;
+
+# Setup Dock
+## Only show active apps
+defaults write com.apple.dock static-only -bool TRUE;
+
+## Indicate when apps are hidden
+defaults write com.apple.dock showhidden -bool TRUE;
+
+## Set Auto hide
+defaults write com.apple.dock autohide -bool TRUE; 
+
+## Configure the AutoHide
+defaults write com.apple.dock autohide-time-modifier -float 1; 
+
+## Dock position
+defaults write com.apple.dock orientation -string right; 
+
+## Simple UI
+defaults write com.apple.dock no-glass -bool TRUE; 
+
+killall Dock
+
+# Setup Finder
+
+## Disable file extension warnings.
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool FALSE; 
+
+## Show all file name extensions
+defaults write com.apple.finder AppleShowAllExtensions -bool TRUE; 
+
+## Unhide library
+chflags nohidden ${home}/Library
+
+killall Finder
