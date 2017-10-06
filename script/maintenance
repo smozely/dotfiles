@@ -1,0 +1,10 @@
+#!/bin/sh
+# Keep shit up to date
+
+# First Update what we already have
+brew update
+brew upgrade
+
+# First make sure brew file is update
+brew bundle check --global || brew bundle --global
+
