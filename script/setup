@@ -1,0 +1,10 @@
+#!/bin/sh
+# Install all dotfiles into the home directory
+
+DOTFILESDIRREL=$(dirname $0)
+cd $DOTFILESDIRREL/..
+DOTFILESDIR=$(pwd -P)
+
+ln -fs $DOTFILESDIR/Brewfile ~/.Brewfile
+ln -fs $DOTFILESDIR/tmux.conf ~/.tmux.conf
+ln -fs $DOTFILESDIR/zshrc ~/.zshrc
