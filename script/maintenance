@@ -2,6 +2,7 @@
 # Keep shit up to date
 
 # First Update what we already have
+brew bundle install
 brew update
 brew upgrade
 
