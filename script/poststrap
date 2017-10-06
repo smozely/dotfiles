@@ -22,6 +22,27 @@ defaults write NSGlobalDomain com.apple.keyboard.fnState -bool TRUE;
 ## Expand print dialog by default
 defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool TRUE;
 
+# Set fast key repeat rate
+defaults write NSGlobalDomain KeyRepeat -int 0
+
+## Show IP address, hostname, OS version when clicking the clock in the login window
+sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+
+## Expand save panel by default
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+
+## Expand print panel by default
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+
+## Automatically illuminate built-in MacBook keyboard in low light
+defaults write com.apple.BezelServices kDim -bool true
+
+## Turn off keyboard illumination when computer is not used for 5 minutes
+defaults write com.apple.BezelServices kDimTime -int 300
+
+## Enable full keyboard access for all controls"
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
 # Setup Dock
 ## Only show active apps
 defaults write com.apple.dock static-only -bool TRUE;
@@ -51,7 +72,24 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool FALSE;
 ## Show all file name extensions
 defaults write com.apple.finder AppleShowAllExtensions -bool TRUE; 
 
+## Show Status Bar
+defaults write com.apple.finder ShowStatusBar -bool true
+
+# Use list view in all Finder windows by default
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+
+# Disable the warning before emptying the Trash
+defaults write com.apple.finder WarnOnEmptyTrash -bool false
+
 ## Unhide library
 chflags nohidden ${home}/Library
 
 killall Finder
+
+# Hot Corners
+## Top Left Display Sleep
+defaults write com.apple.dock wvous-tl-corner -int 10
+defaults write com.apple.dock wvous-tl-modifier -int 0
+
+# SSH
+sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist

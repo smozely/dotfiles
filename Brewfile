@@ -30,7 +30,7 @@ cask "java"
 cask "jetbrains-toolbox"
 cask "keepingyouawake"
 cask "moom"
-cask "textexpander"
+# cask "textexpander" this installs the subscription version of text expander
 cask "transmission"
 cask "visual-studio-code"
 cask "vlc"
