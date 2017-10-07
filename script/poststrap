@@ -24,6 +24,9 @@ if [ ! -d  $HOME/.tmux/plugins/tpm ]; then
     git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
 
+if [ ! -d $HOME/.vim/autoload ]; then
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+fi
 
 # Global things
 ## Dont make dsstore files
@@ -34,9 +37,6 @@ defaults write NSGlobalDomain com.apple.keyboard.fnState -bool TRUE;
 
 ## Expand print dialog by default
 defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool TRUE;
-
-# Set fast key repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 0
 
 ## Show IP address, hostname, OS version when clicking the clock in the login window
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName

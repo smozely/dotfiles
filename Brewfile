@@ -9,6 +9,7 @@ brew "go"
 brew "htop"
 brew "jq"
 brew "mas"
+brew "reattach-to-user-namespace"
 brew "terraform"
 brew "tmux"
 brew "tree"
@@ -46,3 +47,9 @@ mas "1Password", id: 443987910
 mas "Pixelmator", id: 407963104
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
+mas "Quiver", id: 866773894
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825 
+mas "Pages", id: 409201541 
+mas "Byword", id: 420212497
+mas "Pocket", id: 568494494 
