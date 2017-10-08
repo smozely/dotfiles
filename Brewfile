@@ -45,6 +45,7 @@ cask "keepingyouawake"
 cask "marked"
 cask "moom"
 cask "paw"
+cask "sketch"
 cask "spotify"
 cask "sourcetree"
 # cask "textexpander" this installs the subscription version of text expander
