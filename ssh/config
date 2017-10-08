@@ -1,0 +1,13 @@
+Host *
+  UseKeychain yes
+  AddKeysToAgent yes
+
+# Old Atomic Config
+Host gw gateway
+  HostName gateway.atomic.io
+  User gateway
+  Port 777
+  ForwardAgent yes
+  ControlPath ~/.ssh/cm-%r@%h:%p
+  ControlMaster auto
+  ControlPersist 30m
