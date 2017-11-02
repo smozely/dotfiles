@@ -42,6 +42,12 @@ if [ ! -d $HOME/.nvm ]; then
     curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash
 fi
 
+if [ ! -d $HOME/.rvm ]; then
+    mkdir -p ~/.rvm/src && cd ~/.rvm/src
+    git clone --depth 1 git://github.com/wayneeseguin/rvm.git    
+    cd rvm && ./install
+fi
+
 # Make sure we've accepted xcode license
 sudo xcodebuild -license accept
 

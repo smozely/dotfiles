@@ -8,6 +8,7 @@ brew "cowsay"
 brew "elixir"
 brew "elm"
 brew "fasd"
+brew "geckodriver"
 brew "git"
 brew "go"
 brew "htop"
@@ -37,6 +38,7 @@ cask "appcleaner"
 cask "dash"
 cask "daisydisk"
 cask "docker"
+cask "fantastical"
 cask "firefox"
 cask "forklift"
 cask "google-chrome"
@@ -61,4 +63,4 @@ mas "1Password", id: 443987910
 mas "Pixelmator", id: 407963104
 mas "Quiver", id: 866773894
 mas "Byword", id: 420212497
-mas "Pocket", id: 568494494 
+mas "Pocket", id: 568494494
