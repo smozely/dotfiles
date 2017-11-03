@@ -51,9 +51,6 @@ ZSH_TMUX_AUTOQUIT=true
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git tmux sudo fasd history-substring-search zsh-autosuggestions zsh-syntax-highlighting)
 
-# Boxen configuration
-[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
-
 # Local configuration
 [ -f ~/.zshrc-local ] && source ~/.zshrc-local
 
