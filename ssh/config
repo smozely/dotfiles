@@ -15,3 +15,9 @@ Host gw gateway
   ControlPath ~/.ssh/cm-%r@%h:%p
   ControlMaster auto
   ControlPersist 30m
+
+Host 172.31.*
+  User          ubuntu
+  ProxyCommand  ssh gateway@gw nc %h %p 2> /dev/null
+  IdentityFile ~/.ssh/gw_id_rsa
+  StrictHostKeyChecking no
