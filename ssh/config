@@ -17,3 +17,6 @@ Host 172.31.*
   ProxyCommand  ssh gateway@gw nc %h %p 2> /dev/null
   IdentityFile ~/.ssh/gw_id_rsa
   StrictHostKeyChecking no
+
+Host *
+  User p770229
