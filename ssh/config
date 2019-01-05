@@ -2,10 +2,6 @@ Host *
   UseKeychain yes
   AddKeysToAgent yes
 
-# SSH User for Starter4Ten Dev AWS
-Host git-codecommit.ap-southeast-2.amazonaws.com
-  User APKAIHJMGK63GODKOXPA
-
 # Old Atomic Config
 Host gw gateway
   HostName gateway.atomic.io
