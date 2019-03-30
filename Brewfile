@@ -65,7 +65,6 @@ cask "visual-studio-code"
 cask "vlc"
 
 # App Store
-mas "Boxy: email client for \"Inbox by Gmail\"", id: 1053031090 
 mas "Todoist: Organize your life", id: 585829637 
 mas "1Password", id: 443987910
 mas "Pixelmator", id: 407963104
