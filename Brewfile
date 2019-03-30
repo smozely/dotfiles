@@ -4,6 +4,7 @@
 brew "ack"
 brew "awscli"
 brew "chromedriver"
+brew "cowsay"
 brew "elixir"
 brew "elm"
 brew "fasd"
@@ -22,6 +23,13 @@ brew "youtube-dl"
 brew "zsh"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
+
+# Flutter
+brew "usbmuxd"
+brew "libimobiledevice"
+brew "ideviceinstaller"
+brew "ios-deploy"
+brew "cocoapods"
 
 # Apps
 cask "1password-cli"
