@@ -89,9 +89,6 @@ ZSH_TMUX_AUTOQUIT=true
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git tmux sudo fasd history-substring-search zsh-autosuggestions zsh-syntax-highlighting)
 
-# Local configuration
-[ -f ~/.zshrc-local ] && source ~/.zshrc-local
-
 source $ZSH/oh-my-zsh.sh
 
 export DISABLE_AUTO_TITLE=true
@@ -102,3 +99,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# Local configuration
+[ -f ~/.zshrc-local ] && source ~/.zshrc-local
