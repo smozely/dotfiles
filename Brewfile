@@ -51,17 +51,18 @@ cask "kaleidoscope"
 cask "keepingyouawake"
 cask "marked"
 cask "moom"
+cask "omnifocus"
 cask "paw"
 cask "sketch"
+cask "spotify"
 cask "sourcetree"
-# cask "textexpander" this installs the subscription version of text expander
 cask "visual-studio-code"
 cask "vlc"
 
 # App Store
-mas "Todoist: Organize your life", id: 585829637 
 mas "1Password", id: 443987910
 mas "Pixelmator", id: 407963104
+mas "Slack", id: 803453959
 mas "Quiver", id: 866773894
 mas "Byword", id: 420212497
 mas "Pocket", id: 568494494
