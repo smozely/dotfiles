@@ -33,7 +33,7 @@ SPACESHIP_PROMPT_ORDER=(
 #  pyenv         # Pyenv section
 #  dotnet        # .NET section
 #  ember         # Ember.js section
-#  kubecontext   # Kubectl context section
+  kubecontext   # Kubectl context section
 #  terraform     # Terraform workspace section
   exec_time     # Execution time
   line_sep      # Line break
@@ -87,7 +87,7 @@ ZSH_TMUX_AUTOQUIT=true
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git tmux sudo fasd history-substring-search zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git tmux sudo fasd history-substring-search zsh-autosuggestions zsh-syntax-highlighting kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
