@@ -12,7 +12,6 @@ brew "git"
 brew "go"
 brew "htop"
 brew "jq"
-brew "lftp"
 brew "mas"
 brew "maven"
 brew "reattach-to-user-namespace"
@@ -24,18 +23,10 @@ brew "zsh"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 
-# Flutter
-brew "usbmuxd"
-brew "libimobiledevice"
-brew "ideviceinstaller"
-brew "ios-deploy"
-brew "cocoapods"
-
 # Apps
 cask "1password-cli"
 cask "Alfred"
 cask "appcleaner"
-cask "arq"
 cask "dash"
 cask "daisydisk"
 cask "docker"
@@ -43,7 +34,6 @@ cask "dropbox"
 cask "fantastical"
 cask "filebot"
 cask "firefox"
-cask "filezilla"
 cask "forklift"
 cask "google-chrome"
 cask "hazel"
@@ -53,11 +43,9 @@ cask "java"
 cask "jetbrains-toolbox"
 cask "kaleidoscope"
 cask "keepingyouawake"
-cask "marked"
 cask "moom"
 cask "omnifocus"
 cask "paw"
-cask "sketch"
 cask "spotify"
 cask "sourcetree"
 cask "transmission"
@@ -69,9 +57,7 @@ mas "1Password", id: 443987910
 mas "Pixelmator", id: 407963104
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
-mas "Quiver", id: 866773894
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825 
 mas "Pages", id: 409201541 
-mas "Byword", id: 420212497
 mas "Pocket", id: 568494494 
