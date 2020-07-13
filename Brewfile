@@ -3,7 +3,6 @@
 # Standard
 brew "ack"
 brew "awscli"
-brew "chromedriver"
 brew "cowsay"
 brew "elixir"
 brew "elm"
@@ -27,6 +26,9 @@ brew "zsh-syntax-highlighting"
 cask "1password-cli"
 cask "Alfred"
 cask "appcleaner"
+cask "adoptopenjdk8"
+cask "brave-browser"
+cask "chromedriver"
 cask "dash"
 cask "daisydisk"
 cask "docker"
@@ -46,6 +48,7 @@ cask "keepingyouawake"
 cask "moom"
 cask "omnifocus"
 cask "paw"
+cask "shift"
 cask "spotify"
 cask "sourcetree"
 cask "transmission"
@@ -53,7 +56,6 @@ cask "visual-studio-code"
 cask "vlc"
 
 # App Store
-mas "1Password", id: 443987910
 mas "Pixelmator", id: 407963104
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
@@ -61,3 +63,4 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825 
 mas "Pages", id: 409201541 
 mas "Pocket", id: 568494494 
+
