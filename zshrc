@@ -102,5 +102,8 @@ export ERL_AFLAGS="-kernel shell_history enabled -kernel shell_history_file_byte
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
+export ERL_AFLAGS="-kernel shell_history enabled -kernel shell_history_file_bytes 2097152"
+
+
 # Local configuration
 [ -f ~/.zshrc-local ] && source ~/.zshrc-local
