@@ -1,5 +1,17 @@
+# Summarize the change in less than 50 characters
 # If applied, this commit will...
 
-# Explain why this change is being made
+# Explain exactly what was done in this commit with more depth than the
+# 50 character subject line. remember to wrap at 72 characters!
+Why :
+ * 
 
-# Provide links to any relevant tickets, articles or other resources
+# Only need How if there is context outside the code
+# How : 
+# * 
+
+# Any other concerns / side effects ?
+# Considerations :
+# *
+
+# Include any additional notes, relevant links, or co-authors.
