@@ -2,5 +2,8 @@ Host *
   UseKeychain yes
   AddKeysToAgent yes
 
-Host minniy
+Host newminniy
+  User steve
+
+Host oldminniy
   User steve
