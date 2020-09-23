@@ -1,5 +1,5 @@
-
-
+# Brewfile lock - dont want to be that strict
+Brewfile.lock.json
 
 # SSH File Ignores
 ssh/known_hosts
