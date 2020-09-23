@@ -14,7 +14,6 @@ SPACESHIP_PROMPT_ORDER=(
   dir           # Current directory section
 #  host          # Hostname section
   git           # Git section (git_branch + git_status)
-#  hg            # Mercurial section (hg_branch  + hg_status)
   package       # Package version
   node          # Node.js section
 #  ruby          # Ruby section
@@ -25,14 +24,11 @@ SPACESHIP_PROMPT_ORDER=(
 #  php           # PHP section
 #  rust          # Rust section
 #  haskell       # Haskell Stack section
-#  julia         # Julia section
-  docker        # Docker section
+#  docker        # Docker section
   aws           # Amazon Web Services section
 #  venv          # virtualenv section
-#  conda         # conda virtualenv section
 #  pyenv         # Pyenv section
 #  dotnet        # .NET section
-#  ember         # Ember.js section
 #  kubecontext   # Kubectl context section
 #  terraform     # Terraform workspace section
   exec_time     # Execution time
@@ -97,13 +93,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export ERL_AFLAGS="-kernel shell_history enabled -kernel shell_history_file_bytes 1024000"
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
 export ERL_AFLAGS="-kernel shell_history enabled -kernel shell_history_file_bytes 2097152"
-
+export EDITOR=vim
 
 # Local configuration
 [ -f ~/.zshrc-local ] && source ~/.zshrc-local
