@@ -7,3 +7,6 @@ Host newminniy
 
 Host oldminniy
   User steve
+
+Host nassy
+  User root
