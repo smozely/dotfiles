@@ -59,6 +59,7 @@ cask "sourcetree"
 cask "transmission"
 cask "visual-studio-code"
 cask "vlc"
+cask "whatsapp"
 
 # App Store
 mas "Pixelmator", id: 407963104
