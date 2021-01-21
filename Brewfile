@@ -2,6 +2,7 @@
 
 # Standard
 brew "ack"
+brew "asdf"
 brew "awscli"
 brew "cowsay"
 brew "elixir"
