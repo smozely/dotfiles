@@ -4,6 +4,7 @@
 brew "ack"
 brew "asdf"
 brew "awscli"
+brew "azure-cli"
 brew "cowsay"
 brew "elixir"
 brew "elm"
