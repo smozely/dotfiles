@@ -1,10 +1,12 @@
 # Taps / Casks
+tap "azure/functions"
 
 # Standard
 brew "ack"
 brew "asdf"
 brew "awscli"
 brew "azure-cli"
+brew "azure-functions-core-tools@3"
 brew "cowsay"
 brew "elixir"
 brew "elm"
@@ -14,6 +16,7 @@ brew "git-trim"
 brew "gh"
 brew "glances"
 brew "go"
+brew "gnupg"
 brew "htop"
 brew "jq"
 brew "mas"
