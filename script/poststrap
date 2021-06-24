@@ -37,11 +37,6 @@ if [ ! -d $HOME/.vim/autoload ]; then
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 fi
 
-# Setup nvm
-if [ ! -d $HOME/.nvm ]; then
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash
-fi
-
 # Make sure we've accepted xcode license
 sudo xcodebuild -license accept
 
