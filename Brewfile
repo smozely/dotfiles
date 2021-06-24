@@ -12,6 +12,7 @@ brew "fasd"
 brew "git"
 brew "git-trim"
 brew "gh"
+brew "glances"
 brew "go"
 brew "htop"
 brew "jq"
@@ -29,10 +30,8 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 
 # Apps
-cask "1password-cli"
 cask "Alfred"
 cask "appcleaner"
-cask "adoptopenjdk8"
 cask "brave-browser"
 cask "chromedriver"
 cask "dash"
@@ -46,8 +45,7 @@ cask "forklift"
 cask "google-chrome"
 cask "hazel"
 cask "hammerspoon"
-cask "iterm2"
-cask "java"
+cask "hyper"
 cask "jetbrains-toolbox"
 cask "kaleidoscope"
 cask "keepingyouawake"
@@ -71,4 +69,4 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825 
 mas "Pages", id: 409201541 
 mas "Pocket", id: 568494494 
-
+mas "1 Password", id: 1333542190
