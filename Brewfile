@@ -1,5 +1,6 @@
 # Taps / Casks
 tap "azure/functions"
+tap "fishtown-analytics/dbt"
 
 # Standard
 brew "ack"
@@ -8,6 +9,7 @@ brew "awscli"
 brew "azure-cli"
 brew "azure-functions-core-tools@3"
 brew "cowsay"
+brew "dbt"
 brew "elixir"
 brew "elm"
 brew "fasd"
