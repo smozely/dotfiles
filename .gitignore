@@ -4,5 +4,7 @@ Brewfile.lock.json
 # SSH File Ignores
 ssh/known_hosts
 ssh/id_rsa
+ssh/rsa_key.p8
 ssh/gw_id_rsa
 ssh/cm-*
+
