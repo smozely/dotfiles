@@ -1,6 +1,5 @@
 # Taps / Casks
 tap "azure/functions"
-tap "fishtown-analytics/dbt"
 tap "homebrew/cask"
 
 # Standard
@@ -10,7 +9,6 @@ brew "awscli"
 brew "azure-cli"
 brew "azure-functions-core-tools@3"
 brew "cowsay"
-brew "dbt"
 brew "fasd"
 brew "git"
 brew "git-trim"
@@ -43,6 +41,7 @@ cask "firefox"
 cask "forklift"
 cask "google-chrome"
 cask "hazel"
+cask "iterm2"
 cask "jetbrains-toolbox"
 cask "kaleidoscope"
 cask "keepingyouawake"
