@@ -1,6 +1,7 @@
 # Taps / Casks
 tap "azure/functions"
 tap "fishtown-analytics/dbt"
+tap "homebrew/cask"
 
 # Standard
 brew "ack"
