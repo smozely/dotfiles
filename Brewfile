@@ -1,5 +1,6 @@
 # Taps / Casks
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 
 # Standard
 brew "ack"
@@ -50,6 +51,7 @@ cask "vlc"
 cask "whatsapp"
 cask "messenger"
 cask "microsoft-outlook"
+cask "font-fira-code"
 
 # App Store
 mas "Slack", id: 803453959
