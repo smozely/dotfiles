@@ -52,7 +52,6 @@ cask "messenger"
 cask "microsoft-outlook"
 
 # App Store
-mas "Pixelmator", id: 407963104
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
 mas "Keynote", id: 409183694
