@@ -48,6 +48,9 @@ cask "transmission"
 cask "visual-studio-code"
 cask "vlc"
 cask "whatsapp"
+cask "messenger"
+cask "microsoft-teams"
+cask "microsoft-outlook"
 
 # App Store
 mas "Pixelmator", id: 407963104
