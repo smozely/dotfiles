@@ -60,3 +60,4 @@ mas "Pocket", id: 568494494
 mas "Slack", id: 803453959
 mas "WhatsApp", id: 1147396723
 mas "Messenger", id: 1480068668 
+mas "Bear", id: 1091189122 
