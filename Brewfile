@@ -48,15 +48,15 @@ cask "sourcetree"
 cask "transmission"
 cask "visual-studio-code"
 cask "vlc"
-cask "whatsapp"
-cask "messenger"
 cask "microsoft-outlook"
 cask "font-fira-code"
 
 # App Store
-mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825 
 mas "Pages", id: 409201541 
 mas "Pocket", id: 568494494 
+mas "Slack", id: 803453959
+mas "WhatsApp", id: 1147396723
+mas "Messenger", id: 1480068668 
