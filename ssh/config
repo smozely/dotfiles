@@ -4,12 +4,3 @@ Host *
   ServerAliveInterval 60
   ServerAliveCountMax 2
 
-Host newminniy
-  User steve
-
-Host oldminniy
-  User steve
-
-Host nassy
-  User root
-  KexAlgorithms +diffie-hellman-group1-sha1
