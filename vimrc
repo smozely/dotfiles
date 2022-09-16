@@ -1,13 +1,11 @@
 " Select your Leader key
-let mapleader = ","
+let mapleader = "\<Space>"
 
 call plug#begin()
 
 Plug 'sheerun/vimrc'
 Plug 'sheerun/vim-polyglot'
-" Load other plugins
 
 call plug#end()
 
-" Define maps for your plugins
-nnoremap <Leader>o :CtrlP<CR>
+set number
