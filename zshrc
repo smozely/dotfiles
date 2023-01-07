@@ -40,6 +40,8 @@ SPACESHIP_PROMPT_ORDER=(
   char          # Prompt character
 )
 
+SPACESHIP_EXIT_CODE_SHOW=true
+
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
