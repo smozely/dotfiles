@@ -4,6 +4,6 @@ yarn 1.22.10
 python 3.9.6
 
 terraform 1.2.5
-terragrunt 0.39.2
+terragrunt 0.42.7
 
 maven 3.8.6
