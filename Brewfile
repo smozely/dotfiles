@@ -1,6 +1,7 @@
 # Taps / Casks
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
+tap "birdayz/kaf"
 
 # Standard
 brew "ack"
@@ -15,6 +16,7 @@ brew "glances"
 brew "gnupg"
 brew "htop"
 brew "jq"
+brew "kaf"
 brew "mas"
 brew "reattach-to-user-namespace"
 brew "sshuttle"
