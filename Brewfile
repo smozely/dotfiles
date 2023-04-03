@@ -63,4 +63,3 @@ mas "Pages", id: 409201541
 mas "Pocket", id: 568494494 
 mas "Slack", id: 803453959
 mas "Messenger", id: 1480068668 
-mas "Bear", id: 1091189122 
