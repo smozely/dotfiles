@@ -24,6 +24,8 @@ brew "sshuttle"
 brew "telnet"
 brew "tmux"
 brew "tree"
+brew "wget"
+brew "xmlstarlet"
 brew "youtube-dl"
 brew "zsh"
 brew "zsh-completions"
@@ -55,6 +57,7 @@ cask "visual-studio-code"
 cask "vlc"
 cask "microsoft-outlook"
 cask "font-fira-code"
+cask "whatsapp"
 
 # App Store
 mas "Keynote", id: 409183694
