@@ -32,6 +32,7 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 
 # Apps
+cask "1password-cli"
 cask "Alfred"
 cask "appcleaner"
 cask "brave-browser"
