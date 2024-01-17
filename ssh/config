@@ -1,5 +1,11 @@
 Include ~/.orbstack/ssh/config
 
+Host cwbitbucket
+  HostName bitbucket.org
+  IdentityFile ~/.ssh/cw_id_ed25519.pub
+  IdentitiesOnly yes
+
+
 Host *
   IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
 
