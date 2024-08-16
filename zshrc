@@ -85,7 +85,7 @@ ZSH_TMUX_AUTOQUIT=true
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(asdf git tmux sudo fasd history-substring-search zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(asdf git git-extras tmux sudo fasd history-substring-search zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -93,6 +93,8 @@ export DISABLE_AUTO_TITLE=true
 
 export ERL_AFLAGS="-kernel shell_history enabled -kernel shell_history_file_bytes 2097152"
 export EDITOR=vim
+
+eval "$(atuin init zsh)"
 
 # Local configuration
 [ -f ~/.zshrc-local ] && source ~/.zshrc-local
