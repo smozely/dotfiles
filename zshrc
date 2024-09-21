@@ -81,8 +81,9 @@ COMPLETION_WAITING_DOTS="true"
 HIST_STAMPS="yyyy-mm-dd"
 
 # TMUX conf
+ZSH_TMUX_AUTOSTART=true
 ZSH_TMUX_AUTOCONNECT=true
-ZSH_TMUX_AUTOQUIT=true
+ZSH_TMUX_AUTOQUIT=false
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
