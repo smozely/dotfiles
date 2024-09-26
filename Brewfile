@@ -55,7 +55,6 @@ cask "transmission"
 cask "visual-studio-code"
 cask "vlc"
 cask "font-fira-code"
-cask "whatsapp"
 
 # App Store
 mas "Keynote", id: 409183694
