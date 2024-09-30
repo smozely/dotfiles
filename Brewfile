@@ -1,5 +1,4 @@
 # Taps / Casks
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
 # Standard
@@ -29,6 +28,7 @@ brew "youtube-dl"
 brew "zsh"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
+brew "eza"
 
 # Apps
 cask "1password-cli"
