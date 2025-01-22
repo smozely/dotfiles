@@ -17,7 +17,7 @@ SPACESHIP_PROMPT_ORDER=(
   package       # Package version
   node          # Node.js section
 #  ruby          # Ruby section
-  elixir        # Elixir section
+#  elixir        # Elixir section
 #  xcode         # Xcode section
 #  swift         # Swift section
 #  golang        # Go section
@@ -95,7 +95,7 @@ source $ZSH/oh-my-zsh.sh
 export DISABLE_AUTO_TITLE=true
 
 export ERL_AFLAGS="-kernel shell_history enabled -kernel shell_history_file_bytes 2097152"
-export EDITOR=vim
+export EDITOR=nvim
 
 eval "$(atuin init zsh)"
 
