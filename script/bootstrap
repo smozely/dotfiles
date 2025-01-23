@@ -9,8 +9,6 @@ ln -fs $DOTFILESDIR/ssh ~/.ssh
 ln -fs $DOTFILESDIR/Brewfile ~/.Brewfile
 ln -fs $DOTFILESDIR/tmux.conf ~/.tmux.conf
 ln -fs $DOTFILESDIR/zshrc ~/.zshrc
-ln -fs $DOTFILESDIR/vimrc ~/.vimrc
-ln -fs $DOTFILESDIR/hyper.js ~/.hyper.js
 ln -fs $DOTFILESDIR/tool-versions ~/.tool-versions
 ln -fs $DOTFILESDIR/nvim ~/.config/nvim
 
