@@ -81,8 +81,8 @@ COMPLETION_WAITING_DOTS="true"
 HIST_STAMPS="yyyy-mm-dd"
 
 # TMUX conf
-ZSH_TMUX_AUTOSTART=true
-ZSH_TMUX_AUTOCONNECT=true
+ZSH_TMUX_AUTOSTART=false
+ZSH_TMUX_AUTOCONNECT=false
 ZSH_TMUX_AUTOQUIT=false
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
@@ -96,6 +96,10 @@ export DISABLE_AUTO_TITLE=true
 
 export ERL_AFLAGS="-kernel shell_history enabled -kernel shell_history_file_bytes 2097152"
 export EDITOR=nvim
+
+alias vim="nvim"
+alias vi="nvim"
+alias oldvim="vim"
 
 eval "$(atuin init zsh)"
 

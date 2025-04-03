@@ -4,11 +4,10 @@ Host bulk-live.companieshouse.gov.uk
   User connectworks
   IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
 
-Host *
+Host studiy
+  ForwardAgent yes
   IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
 
-Host studiy.local
+Host newminniy
   ForwardAgent yes
-
-Host newminniy.local
-  ForwardAgent yes
+  IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
