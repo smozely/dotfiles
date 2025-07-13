@@ -25,6 +25,7 @@ brew "wget"
 brew "zsh"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
+brew "zoxide"
 brew "eza"
 
 # Apps
