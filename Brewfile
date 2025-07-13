@@ -1,15 +1,12 @@
 # Standard
 brew "ack"
 brew "asdf"
-brew "awscli"
 brew "atuin"
 brew "fzf"
 brew "git"
-brew "gh"
 brew "glances"
 brew "gnupg"
 brew "htop"
-brew "jq"
 brew "jj"
 brew "luarocks"
 brew "libpq"
@@ -17,7 +14,6 @@ brew "mas"
 brew "neovim"
 brew "reattach-to-user-namespace"
 brew "ripgrep"
-brew "sq"
 brew "telnet"
 brew "tmux"
 brew "tree"
@@ -29,33 +25,17 @@ brew "zoxide"
 brew "eza"
 
 # Apps
-cask "1password-cli"
 cask "Alfred"
-cask "appcleaner"
 cask "daisydisk"
-cask "discord"
 cask "firefox"
 cask "forklift"
 cask "ghostty"
-cask "google-chrome"
 cask "hazel"
-cask "jetbrains-toolbox"
-cask "kaleidoscope"
 cask "keepingyouawake"
-cask "miro"
 cask "moom"
-cask "orbstack"
-cask "shottr"
-cask "spotify"
-cask "session-manager-plugin"
-cask "transmission"
 cask "visual-studio-code"
-cask "vlc"
 cask "font-fira-code"
 
-# App Store
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825 
-mas "Pages", id: 409201541 
-mas "Slack", id: 803453959
-mas "Messenger", id: 1480068668 
+# Plex Server Specific
+cask "filebot"
+brew "rclone"
