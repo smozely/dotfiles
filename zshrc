@@ -101,6 +101,7 @@ alias vim="nvim"
 alias vi="nvim"
 alias oldvim="vim"
 
+source <(COMPLETE=zsh jj)
 eval "$(atuin init zsh)"
 
 # Local configuration
