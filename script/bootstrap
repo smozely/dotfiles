@@ -10,7 +10,6 @@ ln -fs $DOTFILESDIR/Brewfile ~/.Brewfile
 ln -fs $DOTFILESDIR/tmux.conf ~/.tmux.conf
 ln -fs $DOTFILESDIR/zshrc ~/.zshrc
 ln -fs $DOTFILESDIR/tool-versions ~/.tool-versions
-ln -fs $DOTFILESDIR/nvim ~/.config/nvim
 
 ln -fs $DOTFILESDIR/git/gitignore_global ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global

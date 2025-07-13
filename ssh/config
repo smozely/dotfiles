@@ -1,13 +1,9 @@
 Include ~/.orbstack/ssh/config
 
-Host bulk-live.companieshouse.gov.uk
-  User connectworks
-  IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
+Host mothership
+  HostName mothership
+  User steve
 
-Host studiy
-  ForwardAgent yes
-  IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
-
-Host newminniy
-  ForwardAgent yes
-  IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
+Host hidden-base
+  HostName hidden-base
+  User steve
