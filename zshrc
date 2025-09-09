@@ -88,7 +88,7 @@ ZSH_TMUX_AUTOQUIT=false
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(mise git git-extras tmux sudo fzf zsh-autosuggestions zsh-syntax-highlighting eza forklift tailscale 1password zoxide)
+plugins=(mise git git-extras tmux sudo fzf zsh-autosuggestions zsh-syntax-highlighting eza forklift tailscale 1password)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -103,6 +103,7 @@ alias oldvim="vim"
 
 source <(COMPLETE=zsh jj)
 eval "$(atuin init zsh)"
+eval "$(zoxide init zsh)"
 
 # Local configuration
 [ -f ~/.zshrc-local ] && source ~/.zshrc-local
