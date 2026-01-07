@@ -2,6 +2,7 @@
 brew "ack"
 brew "awscli"
 brew "atuin"
+brew "chezmoi"
 brew "fzf"
 brew "git"
 brew "gh"
