@@ -1,0 +1,28 @@
+"$schema" = "https://jj-vcs.github.io/jj/latest/config-schema.json"
+
+[user]
+name = "Steve Mosley"
+email = "steve@starter4ten.com"
+
+[ui]
+default-command = "log"
+diff-formatter = "bc"
+merge-editor = "bc"
+
+[merge-tools.bc] 
+program = "bcomp" # On MacOS, this should be "bcomp".
+edit-args = ["$left", "$right", "-ro1", "-expandall"]
+merge-args = ["$left", "$right", "$base", "$output", "-automerge", "-reviewconflicts"]
+
+[git]
+private-commits = "description(glob:'WIP:*')"
+
+[template]
+push-bookmark-prefix = "steve/push-"
+
+[aliases]
+f = ["git", "fetch"]
+pu = ["git", "push"]
+
+[remotes.origin]
+auto-track-bookmarks = "glob:*"
