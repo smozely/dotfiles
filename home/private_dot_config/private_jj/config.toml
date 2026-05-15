@@ -6,8 +6,6 @@ email = "steve@starter4ten.com"
 
 [ui]
 default-command = "log"
-diff-formatter = "bc"
-merge-editor = "bc"
 
 [merge-tools.bc] 
 program = "bcomp" # On MacOS, this should be "bcomp".
