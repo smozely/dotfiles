@@ -102,6 +102,7 @@ alias oldvim="vim"
 source <(COMPLETE=zsh jj)
 eval "$(atuin init zsh)"
 eval "$(zoxide init zsh)"
+eval "$(direnv hook zsh)"
 
 # Local configuration
 [ -f ~/.zshrc-local ] && source ~/.zshrc-local
