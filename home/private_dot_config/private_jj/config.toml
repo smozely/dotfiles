@@ -21,13 +21,14 @@ push-bookmark-prefix = "steve/push-"
 [aliases]
 f = ["git", "fetch"]
 pu = ["git", "push"]
+la = ["log", "-r all"]
 
 [remotes.origin]
 auto-track-bookmarks = "glob:*"
 
 [revsets]
 bookmark-advance-to = '@-'
+log = "trunk()..@ | trunk()"
 
 [revset-aliases]
-"immutable_heads()" = "builtin_immutable_heads() | bookmarks(exact:'parked') | bookmarks(glob:'parked*')"
-
+all = "present(@) | ancestors(immutable_heads().., 2) | present(trunk())"
