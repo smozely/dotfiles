@@ -1,2 +1,5 @@
 .idea/
 steve_temp/
+.scratch/
+**/.claude/settings.local.json
+mise.local.toml

@@ -6,6 +6,7 @@ email = "steve@starter4ten.com"
 
 [ui]
 default-command = "log"
+show-cryptographic-signatures = true
 
 [merge-tools.bc] 
 program = "bcomp" # On MacOS, this should be "bcomp".
@@ -31,3 +32,11 @@ bookmark-advance-to = '@-'
 
 [revset-aliases]
 trunk = "trunk()..@ | trunk()"
+
+[signing]
+backend = "ssh"
+key = "~/.ssh/key_signing.pub"
+behavior = "own"
+
+[signing.backends.ssh]
+allowed-signers = "~/.ssh/allowed_signers"
