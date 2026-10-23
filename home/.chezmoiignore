@@ -1,3 +1,5 @@
 # Now managed by Home Manager (~/src/nix-config)
 .config/jj
 .gitignore_global
+.ssh/config
+.ssh/allowed_signers
