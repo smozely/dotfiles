@@ -7,3 +7,8 @@ Host mothership
 Host hidden-base
   HostName hidden-base
   User steve
+
+Host github.com
+  User git
+  IdentityFile ~/.ssh/key_code
+  IdentitiesOnly yes
