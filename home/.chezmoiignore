@@ -1,0 +1,3 @@
+# Now managed by Home Manager (~/src/nix-config)
+.config/jj
+.gitignore_global
